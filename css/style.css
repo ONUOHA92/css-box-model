@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    
+}
+
+/* styling the header section */
+.logo_green {
+    color: #7ed56f;
+    font-size: 40px;
+}
+
+.logo_blur {
+    color: rgba(40, 181, 237, 0.637);
+    font-size: 40px;
+}
+
+/* header {
+    background-color: azure;
+    height: 80px;
+    padding: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+} */
+
+#form-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    justify-content: center;
+    background-color:lightgrey;
+    padding: 30px 50px;
+    
+}
+
+h1{
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+/* label */
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+ 
+
+
+/* form styling */
+input[type="text"],
+input[type="email"],
+input[type="text"],
+input[type="text"],
+input[type="password"],
+select
+ {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 45px;
+    margin-bottom: 15px;
+    border: 1px solid #CDCDCD;
+    outline: none;
+    
+}
+
+input ,
+select
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+select{
+    -webkit-appearance: none;
+     border-radius: 0;
+     -webkit-border-radius: 0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus
+{
+  color: black; 
+  outline: 3px solid #869960; 
+    
+}
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #869960;
+    color: #FFF;
+    padding: 10px 0;
+    border: 1px solid #798A56;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] :hover,
+input[type="submit"]:focus {
+    border : 1px solid #535E3B;
+    background-color:#798A56;
+    
+}
+ 
+.checkbox-text{
+  font-size: 85%;  
+  color: #777;
+
+}
