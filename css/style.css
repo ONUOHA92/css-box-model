@@ -1,49 +1,57 @@
 *{
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
     box-sizing: border-box;
 }
 
 body {
+
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+    height: 100vh;
     
+   
+}
+
+.Header h1 {
+    margin-bottom: 20px;
 }
 
 /* styling the header section */
 .logo_green {
     color: #7ed56f;
-    font-size: 40px;
+
 }
 
 .logo_blur {
     color: rgba(40, 181, 237, 0.637);
-    font-size: 40px;
+
 }
 
-/* header {
-    background-color: azure;
-    height: 80px;
-    padding: 20px;
-    font-weight: 700;
-    margin-bottom: 20px;
-} */
+#form-comtainer h1 {
+   margin: 0;
+   padding: 0;
+}
 
 #form-container {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    justify-content: center;
+    width:400px;
+    max-width: 500%;
+    padding: 20px;
     background-color:lightgrey;
-    padding: 30px 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
     
 }
 
 h1{
     font-family: cursive;
     font-size: 30px;
+    text-align: center;
+    
 
 }
 
@@ -72,11 +80,16 @@ select
     box-sizing: border-box;
     padding: 0 10px;
     height: 45px;
+    transition: ease-in;
     margin-bottom: 15px;
     border: 1px solid #CDCDCD;
     outline: none;
     
 }
+
+
+
+#form-container 
 
 input ,
 select
@@ -101,6 +114,9 @@ input[type="password"]:focus
   outline: 3px solid #869960; 
     
 }
+
+
+
 input[type="submit"] {
     width: 100%;
     display: block;
@@ -126,3 +142,12 @@ input[type="submit"]:focus {
   color: #777;
 
 }
+
+
+
+
+.animate_in:focus,
+ .animate_in:hover {
+   transform: translateX(3px);
+ }               
+
