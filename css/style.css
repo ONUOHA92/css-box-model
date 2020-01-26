@@ -12,8 +12,8 @@ body {
    
 }
 
-.Header h1 {
-    margin-bottom: 20px;
+.Header{
+    margin-bottom: 50px;
 }
 
 /* styling the header section */
@@ -37,9 +37,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width:400px;
+    width:90%;
     max-width: 500%;
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
     background-color:lightgrey;
     box-sizing: border-box;
     border-radius: 10px;
