@@ -25,30 +25,35 @@
     <!-- This is the form section -->
     <div id="form-container">
             <h1>simple Registration form</h1>
-        <form action="">
+        <form action="" id="form">
+            <!-- THIS IS THE USER NAME -->
             <label for="userName"class='hidden-label'>username</label>
             <input id="userName" type="text" name="UserName" placeholder="username" class="animate_in">
 
+              <!-- THIS IS THE USER EMAIL -->
             <label for="email"class='hidden-label'>username</label>
             <input id="email" type="email" name="email" placeholder="email" class="animate_in">
-            
+
+            <!-- THIS IS THE FIRSTNAME -->
             <label for="FirstName"class='hidden-label'>First name</label>
             <input id="FirstName" type="text" name="firstName" placeholder="FirstName" class="animate_in">
 
+            <!-- THIS IS THE LASTNAME -->
             <label for="LastName"class='hidden-label'>Last name</label>
             <input id="LastName" type="text" name="LastName" placeholder="LastName" class="animate_in">
 
+            <!-- THIS IS THE PASSWORD -->
             <label for="password"class='hidden-label'>password</label>
             <input id="password" type="password" name="password" placeholder="password" class="animate_in">
 
-            <select name="" id="">
+            <select name="" id="field">
                 <option value="">front-end web developer</option>
                 <option value="">back-end web developer</option>
                 <option value="">ux/ui design</option>
                 <option value="">DevOps</option>
             </select>
 
-            <input type="submit" value="sign up">
+            <input id="submit" type="submit" value="sign up">
 
             <label for="">
                 <input type="checkbox" name="remebrance" checked="checked" value="yes" >
@@ -60,6 +65,8 @@
         </form>
     </div>
 
+
+  <script src="script.js"></script>
 </body>
 
 </html>
